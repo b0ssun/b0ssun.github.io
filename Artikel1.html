@@ -10,6 +10,19 @@
 	<link rel="stylesheet" href="css/custom.css"> 	
 </head>
 <body>
+	
+	<!-- plugin komentar facebook -->
+	<div id="fb-root"></div>
+		<script>
+		(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=137394612964995";
+		fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+		</script>
+
 	<div class="container">
 
       <!-- navbar -->
@@ -34,19 +47,77 @@
         </div><!--/.container-fluid -->
       </nav>
 	  <!-- navbar -->
-	  
-	  <div class="container">
-		<h2>Umbul Ponggok</h2>
-		<p>Wisata Pemandian yang menyegarkan di Klaten, Jawa Tengah</p>            
-		<img src="img/img_chania.jpg" class="img-rounded" width="550" height="300">
-		<p align=justify>Umbul Ponggok merupakan sebuah kolam alami yang dikembangkan menjadi wisata tirta yang cukup terkenal di Klaten. 
-		Aneka ikan warna-warni yang hidup di Umbul Ponggok dan dasar kolam yang indah menjadikannya sebagai lokasi favorit snorkeling. 
-		Tak hanya itu, Umbul Ponggok juga sering menjadi tempat latihan diving.</p>
-		<p align=justify>Snorkelling merupakan wisata air yang menyenangkan dan memiliki efek relaksasi. 
-		Untuk melakukan aktivitas ini wisatawan harus pergi ke laut dengan perairan yang tenang dan memiliki terumbu karang dan hewan laut yang indah. 
-		Karena itu aktivitas ini hanya bisa dilakukan oleh kalangan terbatas, sebab tidak semua laut bisa digunakan untuksnorkelling.</p>
-		
-	  </div>
+	   <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Post Content Column -->
+            <div class="col-lg-8">
+
+                <!-- Blog Post -->
+
+                <!-- Title -->
+                <h1>Umbul Ponggok</h1>
+
+                <!-- Author -->
+                <p class="lead">
+                    by <a href="#">Ariyo Pratomo</a>
+                </p>
+
+                <hr>
+
+                <!-- Date/Time -->
+                <p><span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
+
+                <hr>
+
+                <!-- Preview Image -->
+                <img class="img-responsive" src="img/img_chania.jpg" alt="">
+
+                <hr>
+
+                <!-- Post Content -->
+                <p class="lead">Wisata Pemandian yang menyegarkan di Klaten, Jawa Tengah</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
+
+				<hr>
+				<div class="fb-comments" data-href="http://b0ssun.github.io" data-numposts="5"></div>
+				<hr>
+				
+			</div>
+			
+			<!-- Side bar -->
+            <div class="col-md-4">
+
+				<br><br><br><br><br><br>
+                
+				<!-- tentang -->
+                <div class="well">
+                    <center><h4>Tentang Penulis</h4></center>
+					 
+                    <div class="row">
+                        <div class="col-lg-12">
+                        <img class="img-responsive img-circle center-block" src="img/14.11.7684.jpg" alt="">   
+                        </div>                       
+                    </div>
+					
+                    <!-- /.row -->
+                </div>
+
+                <!-- Side Widget Well -->
+                <div class="well">
+                    <h4>Side Widget Well</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
+                </div>
+
+            </div>
+	  </div> <!-- row -->
+	 
+	</div>  <!-- container -->
 	  
 	  <!----------------------   Footer   ------------------------------->
 		<footer>
@@ -58,6 +129,7 @@
             <!-- /.row -->
         </footer>
 	  <!----------------------   Footer   ------------------------------->
-	  
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>  
 </body>
 </html>
