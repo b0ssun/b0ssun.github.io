@@ -220,3 +220,8 @@ footer {
   }
 }
 
+/*overlay ajax*/
+.ajax_overlay {}
+.ajax_loader {background: url("spinner_squares_circle.gif") no-repeat center center transparent;width:100%;height:100%;}
+
+
